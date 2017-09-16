@@ -1,8 +1,4 @@
-var app = angular.module('chatApp',['ngMaterial']);.
-app.config(function($mdThemingProvider) {
-  $mdThemingProvider.theme('default')
-    .dark();
-});
+var app = angular.module('chatApp',['ngMaterial']);
 
 
 app.controller('chatController',function($scope, $sce){
